@@ -25,7 +25,7 @@ class main():
         if x == 1:
            i = input("Enter the value \n")
            s.enqueue(i)
-           logging.debug(now + ": pushed value is "+str(i))
+           logging.debug(now + ": Enqueued value is "+str(i))
         elif x == 2:
             v = s.dequeue()
             print "Dequeued value is ",v
