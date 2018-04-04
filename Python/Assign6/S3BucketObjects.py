@@ -7,3 +7,9 @@ for obj in bucket.objects.all():
     print(obj.key)
     s3_files.write(obj.key+"\n")
 s3_files.close()
+
+
+#
+# import os
+#
+# os.system("")
